@@ -14,9 +14,17 @@ import { EditorialHero } from '@/components/boutique-surfaces/EditorialHero';
 import { BespokeFeatureGrid } from './components/boutique-surfaces/BespokeFeatureGrid';
 import { TactilePricing } from './components/boutique-surfaces/TactilePricing';
 import { SpringAccordion } from './components/origin-ui/SpringAccordion';
+import { CopySnippet } from './components/origin-ui/CopySnippet';
+import { StatusPill } from './components/emil-primitives/StatusPill';
+import { TestimonialCard } from './components/boutique-surfaces/TestimonialCard';
+import { EnterpriseBentoGrid } from './components/boutique-surfaces/EnterpriseBentoGrid';
 import { NumberCounter } from './components/motion/NumberCounter';
+import { MetricRing } from './components/motion/MetricRing';
 import { SpotlightCard } from './components/motion/SpotlightCard';
 import { ThemeSwitcher } from '@/components/showcase/ThemeSwitcher';
+import { TokenPlayground } from '@/components/showcase/TokenPlayground';
+import { BeforeAfterSlider } from '@/components/showcase/BeforeAfterSlider';
+import { KeybindingModal } from '@/components/showcase/KeybindingModal';
 import { PromptCopier } from '@/components/showcase/PromptCopier';
 import { LibraryBadgeRow } from '@/components/showcase/LibraryBadgeRow';
 import { ProjectDemos } from '@/components/showcase/ProjectDemos';
@@ -119,10 +127,14 @@ export function App() {
         {/* Editorial Magazine Hero */}
         <EditorialHero />
 
-        {/* Global Design Theme Switcher Bar */}
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        {/* Global Design Theme Switcher & Token Playground Bar */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 space-y-4">
           <ThemeSwitcher />
+          <TokenPlayground />
         </div>
+
+        {/* Before / After Visual Comparison Slider */}
+        <BeforeAfterSlider />
 
         {/* Infinite Seamless Marquee Ticker */}
         <MarqueeTicker items={tickerItems} speed={30} />
@@ -130,10 +142,20 @@ export function App() {
         {/* INTERACTIVE COMPONENT LAB BENCH */}
         <section id="interactive-lab" className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
           {/* Origin UI Controls */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <InputWithAdornment />
             <SegmentedControl />
             <SearchCommand />
+          </div>
+
+          {/* 1-Click Copy Snippet & Status Pills */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+            <CopySnippet command="npx vibe-skills add taste-engine" />
+            <div className="flex flex-wrap items-center justify-start md:justify-end gap-2 p-2 rounded-xl border border-border bg-card/60">
+              <StatusPill status="success" label="Taste Engine Active" />
+              <StatusPill status="syncing" label="AST Indexed" />
+              <StatusPill status="active" label="Stripe Tokens" />
+            </div>
           </div>
 
           {/* Dynamic Spotlight Cards (Aceternity / Magic UI Style) */}
@@ -158,6 +180,13 @@ export function App() {
           {/* Spring Accordion / FAQ */}
           <div className="mb-12">
             <SpringAccordion />
+          </div>
+
+          {/* Metric Rings Hardware Dashboard Row */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
+            <MetricRing percentage={97} label="AST Token Reduction" sublabel="Progressive Disclosure" color="stroke-primary" />
+            <MetricRing percentage={100} label="WCAG AAA Contrast" sublabel="Mathematical HSL" color="stroke-emerald-500" />
+            <MetricRing percentage={99} label="Emil Spring Fidelity" sublabel="420Hz Physics Tuning" color="stroke-indigo-500" />
           </div>
 
           {/* Live Metrics Row */}
@@ -330,6 +359,28 @@ export function App() {
         {/* 6 Core System Pillars Grid */}
         <BespokeFeatureGrid />
 
+        {/* Enterprise Architecture Bento Grid */}
+        <EnterpriseBentoGrid />
+
+        {/* Verified Social Proof Testimonials */}
+        <section className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <TestimonialCard
+              author="Alex Rivera"
+              role="Staff Design Engineer"
+              company="Linear Ecosystem"
+              quote="Vibe Superkit completely eliminated generic AI styling from our workflow. Our landing pages now look like they were crafted by Stripe engineers."
+            />
+            <TestimonialCard
+              author="Sarah Chen"
+              role="Head of Product"
+              company="SaaS Matrix"
+              avatarUrl="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+              quote="The spring physics and accessible Radix inputs give our product an unmistakable polish that customers immediately notice."
+            />
+          </div>
+        </section>
+
         {/* 10k+ Star Repositories Bundle Row */}
         <LibraryBadgeRow />
 
@@ -420,6 +471,9 @@ export function App() {
           </div>
         </div>
       </footer>
+
+      {/* Global Keyboard Shortcuts Modal Listener */}
+      <KeybindingModal />
     </div>
   );
 }
