@@ -352,9 +352,6 @@ export function App() {
           )}
         </section>
 
-        {/* Interactive Live Project Demos Suite (Private & Public Systems) */}
-        <ProjectDemos />
-
         {/* 6 Core System Pillars Grid */}
         <BespokeFeatureGrid />
 
