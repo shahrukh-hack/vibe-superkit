@@ -89,15 +89,15 @@ export const LibraryBadgeRow: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-3">
         <div>
           <span className="font-mono text-xs text-primary font-semibold tracking-wider uppercase">
-            [ 05 / 10K+ STAR POWER TOOLKIT BUNDLE ]
+            [ 05 / OPEN-SOURCE DESIGN FOUNDATIONS ]
           </span>
-          <h2 className="font-serif text-2xl sm:text-3xl text-foreground font-light mt-1 tracking-tight">
-            Integrated in one master repository.
+          <h2 className="font-sans text-2xl sm:text-3xl text-foreground font-bold mt-1 tracking-tight">
+            Built on battle-tested community standards.
           </h2>
         </div>
         <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground">
           <CheckCircle className="w-4 h-4 text-emerald-500" />
-          <span>Zero manual installation needed</span>
+          <span>Curated design heuristics & accessible primitives</span>
         </div>
       </div>
 
