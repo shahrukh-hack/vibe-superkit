@@ -27,7 +27,6 @@ import { BeforeAfterSlider } from '@/components/showcase/BeforeAfterSlider';
 import { KeybindingModal } from '@/components/showcase/KeybindingModal';
 import { PromptCopier } from '@/components/showcase/PromptCopier';
 import { LibraryBadgeRow } from '@/components/showcase/LibraryBadgeRow';
-import { ProjectDemos } from '@/components/showcase/ProjectDemos';
 import {
   Sparkles,
   Layers,
@@ -80,9 +79,9 @@ export function App() {
           </div>
 
           <div className="hidden md:flex items-center gap-6 text-xs font-mono text-muted-foreground">
-            <a href="#interactive-demos" className="text-primary font-semibold hover:underline transition-colors flex items-center gap-1">
+            <a href="#benchmark-section" className="text-primary font-semibold hover:underline transition-colors flex items-center gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
-              [ LIVE DEMOS ]
+              [ BENCHMARK ]
             </a>
             <a href="#interactive-lab" className="hover:text-foreground transition-colors">
               [ COMPONENT LAB ]
