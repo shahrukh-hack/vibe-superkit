@@ -1,0 +1,92 @@
+/* =========================================================================
+   VIBE SUPERKIT — STRIPE & TAILWIND UI ENTERPRISE DESIGN SYSTEM
+   ========================================================================= */
+
+/* Theme 1: Default / Stripe Enterprise Classic (Iconic #F6F9FC & #635BFF) */
+:root,
+.theme-stripe {
+  --background: 210 38% 97%;        /* #F6F9FC Iconic Stripe Canvas */
+  --foreground: 214 73% 14%;        /* #0A2540 Deep Navy / Midnight Ink */
+  --card: 0 0% 100%;                /* Pure Crisp White Card */
+  --card-foreground: 214 73% 14%;
+  --primary: 243 100% 68%;          /* #635BFF Signature Stripe Blurple/Indigo */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 28% 93%;         /* #E3E8EE */
+  --secondary-foreground: 214 30% 32%; /* #425466 */
+  --muted: 210 25% 92%;
+  --muted-foreground: 214 20% 40%;  /* #4F566B */
+  --accent: 184 80% 42%;            /* Stripe Mint/Teal #00D4B2 */
+  --accent-foreground: 0 0% 100%;
+  --border: 215 20% 88%;            /* #E3E8EE Surgical border */
+  --input: 215 20% 88%;
+  --ring: 243 100% 68%;
+  --surface-subtle: 210 38% 97%;
+  --surface-elevated: 0 0% 100%;
+  --radius: 0.625rem;
+}
+
+/* Theme 2: Tailwind UI Slate (Modern Clean SaaS) */
+.theme-tailwind {
+  --background: 210 40% 98%;        /* #F8FAFC Clean Slate Canvas */
+  --foreground: 222 47% 11%;        /* #0F172A Slate 900 */
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --primary: 239 84% 67%;           /* #6366F1 Tailwind Indigo 500 */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 214 32% 91%;         /* #E2E8F0 */
+  --secondary-foreground: 215 25% 27%;
+  --muted: 210 40% 93%;
+  --muted-foreground: 215 16% 47%;  /* Slate 500 */
+  --accent: 217 91% 60%;            /* #3B82F6 Blue */
+  --accent-foreground: 0 0% 100%;
+  --border: 214 32% 88%;            /* #CBD5E1 */
+  --input: 214 32% 88%;
+  --ring: 239 84% 67%;
+  --surface-subtle: 210 40% 96%;
+  --surface-elevated: 0 0% 100%;
+  --radius: 0.5rem;
+}
+
+/* Theme 3: Stripe Climate & Growth (Fresh Emerald & Mint) */
+.theme-emerald {
+  --background: 140 25% 98%;        /* #F4FBF7 Soft Mint Mist */
+  --foreground: 160 84% 12%;        /* #064E3B Deep Forest Navy */
+  --card: 0 0% 100%;
+  --card-foreground: 160 84% 12%;
+  --primary: 158 64% 42%;           /* #059669 Vibrant Emerald */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 140 20% 92%;
+  --secondary-foreground: 160 50% 25%;
+  --muted: 140 20% 90%;
+  --muted-foreground: 160 20% 40%;
+  --accent: 173 80% 40%;            /* #0D9488 Teal */
+  --accent-foreground: 0 0% 100%;
+  --border: 140 20% 86%;
+  --input: 140 20% 86%;
+  --ring: 158 64% 42%;
+  --surface-subtle: 140 25% 96%;
+  --surface-elevated: 0 0% 100%;
+  --radius: 0.75rem;
+}
+
+/* Theme 4: Stripe Deep Navy Dark Mode (Stripe CLI / Dashboard Dark) */
+.theme-midnight {
+  --background: 222 47% 8%;         /* #0A0F1D Deep Rich Navy Dark */
+  --foreground: 210 40% 98%;        /* #F8FAFC */
+  --card: 222 47% 11%;              /* #0F172A Elevated Slate Card */
+  --card-foreground: 210 40% 98%;
+  --primary: 243 100% 72%;          /* #7C75FF Electric Blurple */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 222 35% 16%;
+  --secondary-foreground: 210 40% 90%;
+  --muted: 222 35% 14%;
+  --muted-foreground: 215 20% 65%;
+  --accent: 184 80% 50%;
+  --accent-foreground: 222 47% 8%;
+  --border: 222 30% 18%;            /* 1px clean dark slate border */
+  --input: 222 30% 18%;
+  --ring: 243 100% 72%;
+  --surface-subtle: 222 47% 6%;
+  --surface-elevated: 222 47% 14%;
+  --radius: 0.625rem;
+}

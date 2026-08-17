@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "vibe-superkit-mcp",
+  "description": "Pre-configured Model Context Protocol (MCP) server configuration for UI UX Pro Max, 21st.dev, and Antigravity.",
+  "mcpServers": {
+    "ui-ux-pro-max": {
+      "command": "npx",
+      "args": ["-y", "ui-ux-pro-mcp"],
+      "env": {}
+    },
+    "21st-dev": {
+      "command": "npx",
+      "args": ["-y", "21st-dev-mcp"],
+      "env": {}
+    }
+  }
+}
