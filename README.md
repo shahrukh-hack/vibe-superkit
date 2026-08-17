@@ -1,38 +1,39 @@
 <div align="center">
 
-# 🪄 Vibe Superkit
-### The Anti-AI Slop & High-Taste Design Engine for Vibe Coders
+# 🪄 Vibe Superkit (v2.5)
+### The Stripe & Tailwind UI Enterprise Design Engine for Vibe Coders
 
 [![Author](https://img.shields.io/badge/Author-@shahrukh--hack-181717?style=flat-square&logo=github)](https://github.com/shahrukh-hack)
+[![Version](https://img.shields.io/badge/Version-v2.5.0-635BFF?style=flat-square)](package.json)
 [![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=flat-square&logo=react)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![Motion](https://img.shields.io/badge/Motion-Emil_Spring_Physics-FF0055?style=flat-square&logo=framer)](https://motion.dev/)
-[![Live Web Lab](https://img.shields.io/badge/Live-Web%20Lab-FF0055?style=flat-square&logo=framer)](https://shahrukh-hack.github.io/vibe-superkit/)
+[![Live Web Lab](https://img.shields.io/badge/Live-Web%20Lab-635BFF?style=flat-square&logo=googlechrome)](https://shahrukh-hack.github.io/vibe-superkit/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
 <br />
 
 > **Stop generating generic AI-slop websites.**  
-> Vibe Superkit is an all-in-one design engine pre-bundling **9 signature aesthetic themes**, Emil Kowalski spring physics, Vaul-style sheet drawers, Aceternity-style spotlight cards, Origin UI precision inputs, and automated anti-slop rules for **Antigravity**, **Cursor**, **Claude Code**, and **Windsurf**.
+> Vibe Superkit is a production-ready design engine and component library bundling **Stripe's iconic navy/blurple typography**, Tailwind UI enterprise cards, Emil Kowalski spring physics, Vaul bottom sheet drawers, and automated anti-slop rules for **Antigravity**, **Cursor**, **Claude Code**, and **Windsurf**.
 
 </div>
 
 ---
 
-## 🌐 Live Interactive Component Laboratory
+## 🌐 Live Interactive Component Laboratory (v2.5)
 
-Test all 9 themes, trigger Emil-grade spring toasts, open bottom sheet drawers, and test mouse spotlights:  
+Experience the live 26-component bench, drag the Before/After Visual Benchmark slider, and test live token tweaking:  
 👉 **[https://shahrukh-hack.github.io/vibe-superkit/](https://shahrukh-hack.github.io/vibe-superkit/)**
 
 ---
 
 ## ⚡ The Problem: What is "AI Slop" UI?
 
-When developers use AI to generate websites, standard LLMs default to the same predictable tropes:
+When developers prompt AI to build websites, standard LLMs default to predictable, robotic tropes:
 
 ```
 ❌ The Generic "AI Slop" Look:
-- Neon purple/cyan glows and radial blobs on dark backgrounds
+- Neon purple/cyan glowing outlines and blobs on dark backgrounds
 - Pulsing badge pills ("✨ AI-Powered Magic") placed above every headline
 - Gradient CSS text fills across title keywords ("Supercharge your Next-Gen Workflow")
 - Cliché icon-stuffed bento grids with random 3D spheres
@@ -41,59 +42,82 @@ When developers use AI to generate websites, standard LLMs default to the same p
 ```
 
 ### ✨ The Vibe Superkit Solution:
-* **Bespoke Typography:** Editorial serif headings (*Fraunces*) with tight negative tracking paired with geometric body grotesques (*Plus Jakarta Sans*).
-* **Tactile Surfaces:** 1px subtle borders, inner specular highlights, and natural noise grain.
-* **Emil Kowalski Physics:** Organic spring transitions (`stiffness: 420, damping: 30`) with active press-down feedback.
-* **9 Curated Themes:** From *Kinfolk Editorial* to *Dieter Rams Swiss Precision* and *Tokyo Midnight*.
+* **Stripe Enterprise Palette:** Canvas (`#F6F9FC`), Deep Navy Headings (`#0A2540`), Signature Blurple (`#635BFF`), and crisp elevated white cards with 1px border (`#E3E8EE`).
+* **Emil Kowalski Physics:** Organic spring transitions (`stiffness: 420, damping: 30`) with tactile press-down depression (`scale: 0.96`).
+* **Before / After Visual Benchmark:** Live interactive slider showing the exact engineering difference.
+* **Token Playground:** Real-time on-page adjustments for border radius, spring stiffness, and natural paper noise grain.
 
 ---
 
-## 🎨 The 9 Signature Bespoke Design Themes
+## 📦 Complete 26-Component Arsenal
 
-Switch between 9 distinct aesthetic movements with a single class or via the live switcher:
-
-| # | Theme Name | Category | Color Palette | Design Philosophy |
-| :-: | :--- | :---: | :---: | :--- |
-| **1** | 📖 **Editorial Warm** | *Light Editorial* | Cream `#FAF7F2` • Terracotta `#CE5A1B` • Espresso `#231F1D` | *Kinfolk & Monocle Magazine* aesthetic with Fraunces serif and organic warmth. |
-| **2** | 🛡️ **Swiss Precision** | *Minimalist* | Pure Off-White `#FCFCFC` • Cobalt `#0066FF` • Obsidian `#121212` | *Dieter Rams & Linear* with 1px surgical borders and stark typographic clarity. |
-| **3** | ✨ **Tactile Luxe Dark** | *Tactile Dark* | Charcoal `#0B0E14` • Champagne Gold `#F7C948` • Platinum `#EEF1F6` | Deep obsidian surfaces with specular metallic highlights and elevated cards. |
-| **4** | 📟 **Neo-Brutalist Studio** | *Cybernetic* | Dark Forest Slate `#0E1210` • Kinetic Emerald `#22C55E` • Light Sage | Monospace data badges, high-contrast borders, and kinetic green accents. |
-| **5** | 🧭 **Nordic Minimal** | *Light Editorial* | Glacial Mist `#F8FAFC` • Arctic Cyan `#0369A1` • Baltic Navy `#0F172A` | Scandinavian cool minimalism with crisp geometric sans and clean whitespace. |
-| **6** | 🍵 **Kyoto Matcha & Clay** | *Light Editorial* | Ceramic Shino `#FAF7F0` • Uji Matcha `#4A6B2F` • Bamboo Charcoal | Japanese wabi-sabi balance with ceramic cream and earthy natural tea greens. |
-| **7** | ⚡ **Tokyo Midnight** | *Cybernetic* | Pure Midnight Void `#07070B` • Electric Tangerine `#FF4500` • Neon Gold | High-voltage cyberpunk energy with deep blacks and vivid neon punch. |
-| **8** | 🏛️ **Heritage Monochrome** | *Minimalist* | Vintage Parchment `#F6F2EA` • Copper Bronze `#8D4A27` • Letterpress Ink | Classic heritage editorial with warm antiqued paper and letterpress contrast. |
-| **9** | 🌌 **Deep Space OLED** | *Tactile Dark* | True `#000000` OLED Black • Hyper-Violet `#A855F7` • Pure White | Pure zero-light OLED dark mode with hyper-violet laser border illumination. |
+| # | Component | Category | Description & Design Details |
+| :-: | :--- | :---: | :--- |
+| **1** | **`BeforeAfterSlider`** 🪄 | *Showcase* | Draggable split-screen comparison slider: *AI Slop* vs *Vibe Superkit*. |
+| **2** | **`TokenPlayground`** 🎛️ | *Showcase* | Real-time interactive panel to tweak border radiuses, spring stiffness, and paper grain. |
+| **3** | **`MetricRing`** 📊 | *Motion* | Hardware-grade animated SVG circular progress gauges (`97% Token Reduction`). |
+| **4** | **`KeybindingModal`** ⌨️ | *Showcase* | Global keyboard shortcut cheatsheet triggered by `?` or `⌘/`. |
+| **5** | **`CopySnippet`** 📋 | *Origin UI* | 1-click terminal command copy box with interactive status feedback. |
+| **6** | **`StatusPill`** 🟢 | *Emil Primitives* | Live operational status badges (*Active*, *Operational*, *Syncing*) with pulsating dots. |
+| **7** | **`TestimonialCard`** ⭐ | *Enterprise* | Customer quote cards with star ratings, avatar, and verified checkmark. |
+| **8** | **`EnterpriseBentoGrid`** 🏛️ | *Enterprise* | Clean asymmetrical architecture grid showcasing speed, security, and AST memory. |
+| **9** | **`SpringButton`** 🔘 | *Emil Primitives* | Tactile button with physical press-down depression (`scale: 0.96`) and snappy spring release. |
+| **10** | **`SpringDrawer`** 📱 | *Emil Primitives* | Vaul-style iOS bottom-sheet drawer with drag handle and backdrop blur. |
+| **11** | **`TactileCard`** 🎴 | *Emil Primitives* | Elevated card with 1px border and subtle spring hover elevation. |
+| **12** | **`ToastTrigger` / `TasteToaster`** 🍞 | *Emil Primitives* | Sonner-grade stacked physics toast notification system. |
+| **13** | **`MagneticHover`** 🧲 | *Emil Primitives* | Magnetic cursor pull effect for CTAs and buttons. |
+| **14** | **`InputWithAdornment`** 🔍 | *Origin UI* | Precision form input with semantic left icon, right interactive clear/copy actions. |
+| **15** | **`SearchCommand`** ⌨️ | *Origin UI* | Search command bar with keyboard shortcut badges (`⌘K`). |
+| **16** | **`SegmentedControl`** 🎛️ | *Origin UI* | Fluid sliding pill tab switcher with spring layout animation. |
+| **17** | **`SpringAccordion`** 📂 | *Origin UI* | Smooth physics-animated FAQ and feature disclosure accordion. |
+| **18** | **`SpotlightCard`** ✨ | *Motion* | Mouse-following dynamic radial spotlight highlighting borders and surfaces. |
+| **19** | **`MarqueeTicker`** 🔁 | *Motion* | Infinite seamless marquee ribbon for metrics and partner badges. |
+| **20** | **`KineticText`** 🔠 | *Motion* | Staggered typography reveal animation. |
+| **21** | **`NumberCounter`** 📈 | *Motion* | Live animated number counter with physics easing curves. |
+| **22** | **`EditorialHero`** 🚀 | *Enterprise* | Stripe & Tailwind UI hero section with live token badges and code preview. |
+| **23** | **`BespokeFeatureGrid`** 🧩 | *Enterprise* | Asymmetric feature matrix highlighting product capabilities. |
+| **24** | **`TactilePricing`** 💳 | *Enterprise* | 3-tier enterprise pricing table with monthly/annual toggle and toast checkout. |
+| **25** | **`ThemeSwitcher`** 🎨 | *Showcase* | Live token switcher for Stripe Enterprise, Tailwind UI, Climate Mint, and Midnight Navy. |
+| **26** | **`ComponentCodeModal`** 💻 | *Showcase* | 1-click modal to copy TypeScript source code for any component. |
 
 ---
 
-## 🌟 Bundled Component Arsenal & Primitives
+## 🎨 Enterprise Design Token Themes
 
-1. **📱 `SpringDrawer` (Vaul & Emil Kowalski):** Physics spring bottom sheet drawer with mobile drag indicators.
-2. **✨ `SpotlightCard` (Aceternity UI):** Mouse-following dynamic radial light gradient that highlights borders.
-3. **📂 `SpringAccordion`:** Non-linear spring expansion animation for FAQs.
-4. **📈 `NumberCounter`:** Live animated statistics with custom easing curves.
-5. **🔘 `SpringButton` & `MagneticHover`:** Tactile spring buttons and magnetic cursor pull.
-6. **🎛️ `Origin UI Controls`:** Inputs with adornments, animated segmented control pills, and `⌘K` command search bars.
-7. **🍞 `TasteToaster` (Sonner):** Stacked physics notification toasts.
+Switch between 4 agency-grade design personalities with a single CSS class:
+
+```css
+/* 1. Stripe Enterprise (Default) */
+<html class="theme-stripe">    <!-- Canvas: #F6F9FC, Navy: #0A2540, Blurple: #635BFF -->
+
+/* 2. Tailwind UI Classic */
+<html class="theme-tailwind">  <!-- Slate: #0F172A, Pure White Card, Indigo: #6366F1 -->
+
+/* 3. Stripe Climate & Growth */
+<html class="theme-emerald">   <!-- Mint Canvas: #F4FBF7, Forest Navy, Emerald: #059669 -->
+
+/* 4. Stripe Midnight Navy (Dark Mode) */
+<html class="theme-midnight">  <!-- Deep Navy Dark: #0A0F1D, Electric Blurple: #7C75FF -->
+```
 
 ---
 
 ## 🚀 Quickstart
 
-### 1. Clone & install
+### 1. Clone & Install
 ```bash
 git clone https://github.com/shahrukh-hack/vibe-superkit.git my-website
 cd my-website
 npm install
 ```
 
-### 2. Run the interactive component laboratory
+### 2. Run the Interactive Component Laboratory
 ```bash
 npm run dev
 ```
 
 ### 3. Open in Antigravity, Cursor, or Claude Code
-Open the project in your AI editor. It will automatically detect [`.cursorrules`](./.cursorrules) and [`.antigravity/skills`](./.antigravity/skills/taste-engine/SKILL.md) and enforce high-taste design rules on every prompt!
+Open the project directory. The AI automatically detects [`.cursorrules`](./.cursorrules) and enforces Stripe & Tailwind UI design standards on every prompt!
 
 ---
 
@@ -101,8 +125,8 @@ Open the project in your AI editor. It will automatically detect [`.cursorrules`
 
 1. 🪄 **[`vibe-superkit`](https://github.com/shahrukh-hack/vibe-superkit):** The Anti-AI Slop & High-Taste Design Engine ([Live Demo](https://shahrukh-hack.github.io/vibe-superkit/))
 2. 🧠 **[`vibe-memory`](https://github.com/shahrukh-hack/vibe-memory):** Universal Long-Term Memory & Codebase AST Intelligence ([Live Demo](https://shahrukh-hack.github.io/vibe-memory/))
-3. ⚡ **[`vibe-skills`](https://github.com/shahrukh-hack/vibe-skills):** Mega-Library of 23 Standard Agent Skills (`agentskills.io`)
-4. 🤖 **[`vibe-agency`](https://github.com/shahrukh-hack/vibe-agency):** Autonomous Multi-Agent Team Orchestrator with 200+ Agents ([Live Demo](https://shahrukh-hack.github.io/vibe-agency/))
+3. ⚡ **[`vibe-skills`](https://github.com/shahrukh-hack/vibe-skills):** Mega-Library of 23 Standard Agent Skills with 1-Command CLI (`npx vibe-skills add <skill>`)
+4. 🤖 **[`vibe-agency`](https://github.com/shahrukh-hack/vibe-agency):** Autonomous Multi-Agent Team Orchestrator with 200+ Agents & Vibe Kanban ([Live Demo](https://shahrukh-hack.github.io/vibe-agency/))
 
 ---
 

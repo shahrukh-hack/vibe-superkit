@@ -73,8 +73,8 @@ export function App() {
               <span className="font-semibold text-sm tracking-tight text-foreground">
                 Vibe Superkit
               </span>
-              <span className="hidden sm:inline-block ml-2 text-[11px] font-mono text-muted-foreground">
-                v1.0 (High-Taste Engine)
+              <span className="hidden sm:inline-block ml-2 text-[11px] font-mono text-primary font-bold">
+                v2.5 (Stripe & Tailwind UI)
               </span>
             </div>
           </div>
