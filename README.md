@@ -14,7 +14,7 @@
 <br />
 
 > **Stop generating generic AI-slop websites.**  
-> Vibe Superkit is a production-ready design engine and component library bundling **Stripe's iconic navy/blurple typography**, Tailwind UI enterprise cards, Emil Kowalski spring physics, Vaul bottom sheet drawers, and automated anti-slop rules for **Antigravity**, **Cursor**, **Claude Code**, and **Windsurf**.
+> Vibe Superkit is an open-source design engine and 26-component library bundling **Stripe's iconic navy/blurple typography**, Tailwind UI enterprise cards, Emil Kowalski spring physics, Vaul bottom sheet drawers, Aceternity mouse spotlights, and automated anti-slop rules for **Antigravity**, **Cursor**, **Claude Code**, and **Windsurf**.
 
 </div>
 
@@ -46,6 +46,154 @@ When developers prompt AI to build websites, standard LLMs default to predictabl
 * **Emil Kowalski Physics:** Organic spring transitions (`stiffness: 420, damping: 30`) with tactile press-down depression (`scale: 0.96`).
 * **Before / After Visual Benchmark:** Live interactive slider showing the exact engineering difference.
 * **Token Playground:** Real-time on-page adjustments for border radius, spring stiffness, and natural paper noise grain.
+
+---
+
+## 🚀 Component Usage & Code Examples
+
+All components follow the **21st.dev open copy-paste standard**. Below are examples of how to drop them into your project:
+
+### 1. 🔘 Tactile Spring Button & Magnetic Cursor Pull
+Buttons with physical hardware depression (`scale: 0.96`) and magnetic pull physics.
+
+```tsx
+import { SpringButton } from '@/components/emil-primitives/SpringButton';
+import { MagneticHover } from '@/components/emil-primitives/MagneticHover';
+import { ArrowRight } from 'lucide-react';
+
+export function CallToAction() {
+  return (
+    <MagneticHover strength={0.2}>
+      <SpringButton variant="primary" size="lg" onClick={() => console.log('Clicked!')}>
+        Deploy Project <ArrowRight className="w-4 h-4 ml-2" />
+      </SpringButton>
+    </MagneticHover>
+  );
+}
+```
+
+---
+
+### 2. 📱 Vaul-Style Spring Bottom Sheet Drawer
+iOS-grade physics drawer with smooth drag-down dismissal and backdrop blur.
+
+```tsx
+import { SpringDrawer } from '@/components/emil-primitives/SpringDrawer';
+
+export function SettingsDrawerDemo() {
+  return (
+    <SpringDrawer
+      triggerButtonText="Open Workspace Settings"
+      title="Project Configuration"
+      description="Adjust your design tokens, physics curves, and API keys."
+    >
+      <div className="space-y-4 py-4">
+        <p className="text-xs text-muted-foreground">Configure your environment settings here.</p>
+      </div>
+    </SpringDrawer>
+  );
+}
+```
+
+---
+
+### 3. ✨ Dynamic Mouse-Following Spotlight Card
+Radial spotlight effect (Aceternity / Magic UI style) that tracks the cursor and illuminates borders without CPU lag.
+
+```tsx
+import { SpotlightCard } from '@/components/motion/SpotlightCard';
+
+export function FeatureCard() {
+  return (
+    <SpotlightCard
+      badge="High Performance"
+      title="AST Progressive Disclosure"
+      description="Extracts high-level signatures without dumping raw 10,000-line files into LLM context windows."
+    />
+  );
+}
+```
+
+---
+
+### 4. 📋 1-Click Terminal Copy Snippet & Live Status Pills
+Clean command snippet with copy status feedback and pulsating operational indicators.
+
+```tsx
+import { CopySnippet } from '@/components/origin-ui/CopySnippet';
+import { StatusPill } from '@/components/emil-primitives/StatusPill';
+
+export function InstallHeader() {
+  return (
+    <div className="flex flex-col sm:flex-row items-center gap-4">
+      <CopySnippet command="npx vibe-skills add taste-engine" />
+      <StatusPill status="success" label="Taste Engine Active" />
+      <StatusPill status="syncing" label="AST Indexed" />
+    </div>
+  );
+}
+```
+
+---
+
+### 5. 🍞 Emil-Grade Stacked Physics Toasts
+100% native React 19 toast notification queue with zero third-party hydration bugs.
+
+```tsx
+import { TasteToaster, toast } from '@/components/emil-primitives/ToastTrigger';
+
+export function App() {
+  return (
+    <>
+      <TasteToaster />
+      <button
+        onClick={() => toast.success('Changes Published', 'Stripe design tokens applied successfully.')}
+        className="px-4 py-2 bg-primary text-white rounded-xl"
+      >
+        Save Changes
+      </button>
+    </>
+  );
+}
+```
+
+---
+
+### 6. 📊 Hardware-Grade Circular Progress Gauges
+Animated SVG metric rings with spring easing.
+
+```tsx
+import { MetricRing } from '@/components/motion/MetricRing';
+
+export function MetricsSection() {
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <MetricRing percentage={97} label="AST Token Reduction" sublabel="Progressive Disclosure" color="stroke-primary" />
+      <MetricRing percentage={100} label="WCAG AAA Contrast" sublabel="Mathematical HSL" color="stroke-emerald-500" />
+      <MetricRing percentage={99} label="Emil Spring Fidelity" sublabel="420Hz Physics Tuning" color="stroke-indigo-500" />
+    </div>
+  );
+}
+```
+
+---
+
+### 7. ⌨️ Global Keyboard Shortcut Palette
+Accessible modal cheatsheet triggered automatically when pressing `?` or `⌘/`.
+
+```tsx
+import { KeybindingModal } from '@/components/showcase/KeybindingModal';
+
+export function Layout({ children }) {
+  return (
+    <div>
+      {children}
+      {/* Listens globally for ? or ⌘/ */}
+      <KeybindingModal />
+    </div>
+  );
+}
+```
 
 ---
 
