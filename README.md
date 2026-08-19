@@ -1,280 +1,115 @@
 <div align="center">
 
-# 🪄 Vibe Superkit (v2.5)
-### The Stripe & Tailwind UI Enterprise Design Engine for Vibe Coders
+# 🪄 Vibe Superkit
+### The Anti-AI Slop & High-Taste Design Engine for AI Coding Agents — Made Simple
 
 [![Author](https://img.shields.io/badge/Author-@shahrukh--hack-181717?style=flat-square&logo=github)](https://github.com/shahrukh-hack)
-[![Version](https://img.shields.io/badge/Version-v2.5.0-635BFF?style=flat-square)](package.json)
-[![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=flat-square&logo=react)](https://react.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-[![Motion](https://img.shields.io/badge/Motion-Emil_Spring_Physics-FF0055?style=flat-square&logo=framer)](https://motion.dev/)
-[![Live Web Lab](https://img.shields.io/badge/Live-Web%20Lab-635BFF?style=flat-square&logo=googlechrome)](https://shahrukh-hack.github.io/vibe-superkit/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-v1.0.0-2563EB?style=flat-square)](package.json)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Components](https://img.shields.io/badge/Components-26%20Production%20Ready-FF0055?style=flat-square)](https://github.com/shahrukh-hack/vibe-superkit)
+[![Design Standard](https://img.shields.io/badge/Style-Stripe%20%7C%20Linear%20%7C%20Apple-indigo?style=flat-square)](https://github.com/shahrukh-hack/vibe-superkit)
+[![Live Visualizer](https://img.shields.io/badge/Live-Demo%20Sandbox-FF0055?style=flat-square&logo=framer)](https://shahrukh-hack.github.io/vibe-superkit/)
 
 <br />
 
-> **Stop generating generic AI-slop websites.**  
-> Vibe Superkit is an open-source design engine and 26-component library bundling **Stripe's iconic navy/blurple typography**, Tailwind UI enterprise cards, Emil Kowalski spring physics, Vaul bottom sheet drawers, Aceternity mouse spotlights, and automated anti-slop rules for **Antigravity**, **Cursor**, **Claude Code**, and **Windsurf**.
+> **Stop your AI from generating ugly, generic "AI-slop" designs.**  
+> Powered by **Emil Kowalski spring physics**, **Tailwind CSS**, and **Framer Motion**, **Vibe Superkit** equips AI coding agents with **26 tactile, high-taste production components** inspired by Stripe, Apple, and Linear.
 
 </div>
 
 ---
 
-## 🌐 Live Interactive Component Laboratory (v2.5)
+## 📖 What is Vibe Superkit? (In Simple Terms)
 
-Experience the live 26-component bench, drag the Before/After Visual Benchmark slider, and test live token tweaking:  
-👉 **[https://shahrukh-hack.github.io/vibe-superkit/](https://shahrukh-hack.github.io/vibe-superkit/)**
+When you ask an AI to design a website, it usually creates generic, robotic "AI-slop": harsh purple glows, boring flat buttons, and clunky layouts.
 
----
-
-## ⚡ The Problem: What is "AI Slop" UI?
-
-When developers prompt AI to build websites, standard LLMs default to predictable, robotic tropes:
-
-```
-❌ The Generic "AI Slop" Look:
-- Neon purple/cyan glowing outlines and blobs on dark backgrounds
-- Pulsing badge pills ("✨ AI-Powered Magic") placed above every headline
-- Gradient CSS text fills across title keywords ("Supercharge your Next-Gen Workflow")
-- Cliché icon-stuffed bento grids with random 3D spheres
-- Stiff, unnatural linear transitions (transition: all 0.3s ease)
-- Plain, un-tracked default Inter font with zero typographic hierarchy
-```
-
-### ✨ The Vibe Superkit Solution:
-* **Stripe Enterprise Palette:** Canvas (`#F6F9FC`), Deep Navy Headings (`#0A2540`), Signature Blurple (`#635BFF`), and crisp elevated white cards with 1px border (`#E3E8EE`).
-* **Emil Kowalski Physics:** Organic spring transitions (`stiffness: 420, damping: 30`) with tactile press-down depression (`scale: 0.96`).
-* **Before / After Visual Benchmark:** Live interactive slider showing the exact engineering difference.
-* **Token Playground:** Real-time on-page adjustments for border radius, spring stiffness, and natural paper noise grain.
+**Vibe Superkit** teaches your AI how to design with **impeccable taste**:
+* Realistic physics-based animations (buttons that feel tactile and satisfying to click).
+* World-class typography pairings (clean, luxurious editorial fonts).
+* 26 ready-to-use components (Pricing tables, Command Palettes, Glowing Cards, Smooth Carousels).
 
 ---
 
-## 🚀 Component Usage & Code Examples
+## 💬 Real-World Prompts: What You Type ➔ What You Achieve
 
-All components follow the **21st.dev open copy-paste standard**. Below are examples of how to drop them into your project:
-
-### 1. 🔘 Tactile Spring Button & Magnetic Cursor Pull
-Buttons with physical hardware depression (`scale: 0.96`) and magnetic pull physics.
-
-```tsx
-import { SpringButton } from '@/components/emil-primitives/SpringButton';
-import { MagneticHover } from '@/components/emil-primitives/MagneticHover';
-import { ArrowRight } from 'lucide-react';
-
-export function CallToAction() {
-  return (
-    <MagneticHover strength={0.2}>
-      <SpringButton variant="primary" size="lg" onClick={() => console.log('Clicked!')}>
-        Deploy Project <ArrowRight className="w-4 h-4 ml-2" />
-      </SpringButton>
-    </MagneticHover>
-  );
-}
-```
+Here is how anyone can build high-taste web interfaces using simple chat prompts:
 
 ---
 
-### 2. 📱 Vaul-Style Spring Bottom Sheet Drawer
-iOS-grade physics drawer with smooth drag-down dismissal and backdrop blur.
+### 1. 💳 Tactile 3-Tier Pricing Table
+> **What it does:** Builds a luxury SaaS pricing card with smooth annual/monthly toggles and spring physics.
 
-```tsx
-import { SpringDrawer } from '@/components/emil-primitives/SpringDrawer';
-
-export function SettingsDrawerDemo() {
-  return (
-    <SpringDrawer
-      triggerButtonText="Open Workspace Settings"
-      title="Project Configuration"
-      description="Adjust your design tokens, physics curves, and API keys."
-    >
-      <div className="space-y-4 py-4">
-        <p className="text-xs text-muted-foreground">Configure your environment settings here.</p>
-      </div>
-    </SpringDrawer>
-  );
-}
-```
+* **💬 What you type in chat:**
+  ```text
+  "Build a 3-tier pricing table with a monthly/yearly discount switch, popular plan badge, and smooth spring hover effects like Stripe."
+  ```
+* **🎯 What you achieve instantly:**
+  * Generates a fully responsive, physics-based pricing component with interactive discount calculation and smooth tab transitions.
 
 ---
 
-### 3. ✨ Dynamic Mouse-Following Spotlight Card
-Radial spotlight effect (Aceternity / Magic UI style) that tracks the cursor and illuminates borders without CPU lag.
+### 2. 🔍 Global Command Palette (`Cmd + K`)
+> **What it does:** Adds a keyboard-first search modal inspired by Linear and Raycast.
 
-```tsx
-import { SpotlightCard } from '@/components/motion/SpotlightCard';
-
-export function FeatureCard() {
-  return (
-    <SpotlightCard
-      badge="High Performance"
-      title="AST Progressive Disclosure"
-      description="Extracts high-level signatures without dumping raw 10,000-line files into LLM context windows."
-    />
-  );
-}
-```
+* **💬 What you type in chat:**
+  ```text
+  "Create a global search modal (Cmd+K) with keyboard navigation, recent searches, and quick actions."
+  ```
+* **🎯 What you achieve instantly:**
+  * Injects an accessible, lightning-fast modal with search filtering, keyboard arrow navigation (`↑` `↓` `Enter`), and blurred backdrop glassmorphism.
 
 ---
 
-### 4. 📋 1-Click Terminal Copy Snippet & Live Status Pills
-Clean command snippet with copy status feedback and pulsating operational indicators.
+### 3. 💬 Smooth Testimonial Marquee & Carousel
+> **What it does:** Displays customer reviews with infinite smooth scrolling that pauses on hover.
 
-```tsx
-import { CopySnippet } from '@/components/origin-ui/CopySnippet';
-import { StatusPill } from '@/components/emil-primitives/StatusPill';
-
-export function InstallHeader() {
-  return (
-    <div className="flex flex-col sm:flex-row items-center gap-4">
-      <CopySnippet command="npx vibe-skills add taste-engine" />
-      <StatusPill status="success" label="Taste Engine Active" />
-      <StatusPill status="syncing" label="AST Indexed" />
-    </div>
-  );
-}
-```
+* **💬 What you type in chat:**
+  ```text
+  "Create an infinite scrolling customer review marquee with 5-star rating badges and glass cards that pause when hovered."
+  ```
+* **🎯 What you achieve instantly:**
+  * Generates a silky-smooth 60 FPS animated review strip that automatically adapts to dark and light modes.
 
 ---
 
-### 5. 🍞 Emil-Grade Stacked Physics Toasts
-100% native React 19 toast notification queue with zero third-party hydration bugs.
+### 4. 🧲 Magnetic Action Buttons & Micro-Interactions
+> **What it does:** Creates buttons that subtly attract towards the mouse cursor for a premium, tactile feel.
 
-```tsx
-import { TasteToaster, toast } from '@/components/emil-primitives/ToastTrigger';
-
-export function App() {
-  return (
-    <>
-      <TasteToaster />
-      <button
-        onClick={() => toast.success('Changes Published', 'Stripe design tokens applied successfully.')}
-        className="px-4 py-2 bg-primary text-white rounded-xl"
-      >
-        Save Changes
-      </button>
-    </>
-  );
-}
-```
+* **💬 What you type in chat:**
+  ```text
+  "Make our primary CTA button magnetic so it follows the user's mouse with smooth spring physics when hovered."
+  ```
+* **🎯 What you achieve instantly:**
+  * Injects Emil Kowalski spring physics (`stiffness: 400`, `damping: 25`) for tactile micro-interactions.
 
 ---
 
-### 6. 📊 Hardware-Grade Circular Progress Gauges
-Animated SVG metric rings with spring easing.
+### 5. 🎨 High-Taste Typography & Color Palettes
+> **What it does:** Eliminates generic AI gradients and pairs luxurious fonts with elegant color palettes.
 
-```tsx
-import { MetricRing } from '@/components/motion/MetricRing';
-
-export function MetricsSection() {
-  return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-      <MetricRing percentage={97} label="AST Token Reduction" sublabel="Progressive Disclosure" color="stroke-primary" />
-      <MetricRing percentage={100} label="WCAG AAA Contrast" sublabel="Mathematical HSL" color="stroke-emerald-500" />
-      <MetricRing percentage={99} label="Emil Spring Fidelity" sublabel="420Hz Physics Tuning" color="stroke-indigo-500" />
-    </div>
-  );
-}
-```
+* **💬 What you type in chat:**
+  ```text
+  "Generate an elegant dark-mode color palette using deep slate (#0B0F19), champagne accents, and tracked typography for our hero section."
+  ```
+* **🎯 What you achieve instantly:**
+  * Outputs modern Tailwind CSS utility classes with tight letter-spacing (`tracking-tight`) and refined contrast ratios.
 
 ---
 
-### 7. ⌨️ Global Keyboard Shortcut Palette
-Accessible modal cheatsheet triggered automatically when pressing `?` or `⌘/`.
+## ⚡ 60-Second Quickstart
 
-```tsx
-import { KeybindingModal } from '@/components/showcase/KeybindingModal';
-
-export function Layout({ children }) {
-  return (
-    <div>
-      {children}
-      {/* Listens globally for ? or ⌘/ */}
-      <KeybindingModal />
-    </div>
-  );
-}
-```
-
----
-
-## 📦 Complete 26-Component Arsenal
-
-| # | Component | Category | Description & Design Details |
-| :-: | :--- | :---: | :--- |
-| **1** | **`BeforeAfterSlider`** 🪄 | *Showcase* | Draggable split-screen comparison slider: *AI Slop* vs *Vibe Superkit*. |
-| **2** | **`TokenPlayground`** 🎛️ | *Showcase* | Real-time interactive panel to tweak border radiuses, spring stiffness, and paper grain. |
-| **3** | **`MetricRing`** 📊 | *Motion* | Hardware-grade animated SVG circular progress gauges (`97% Token Reduction`). |
-| **4** | **`KeybindingModal`** ⌨️ | *Showcase* | Global keyboard shortcut cheatsheet triggered by `?` or `⌘/`. |
-| **5** | **`CopySnippet`** 📋 | *Origin UI* | 1-click terminal command copy box with interactive status feedback. |
-| **6** | **`StatusPill`** 🟢 | *Emil Primitives* | Live operational status badges (*Active*, *Operational*, *Syncing*) with pulsating dots. |
-| **7** | **`TestimonialCard`** ⭐ | *Enterprise* | Customer quote cards with star ratings, avatar, and verified checkmark. |
-| **8** | **`EnterpriseBentoGrid`** 🏛️ | *Enterprise* | Clean asymmetrical architecture grid showcasing speed, security, and AST memory. |
-| **9** | **`SpringButton`** 🔘 | *Emil Primitives* | Tactile button with physical press-down depression (`scale: 0.96`) and snappy spring release. |
-| **10** | **`SpringDrawer`** 📱 | *Emil Primitives* | Vaul-style iOS bottom-sheet drawer with drag handle and backdrop blur. |
-| **11** | **`TactileCard`** 🎴 | *Emil Primitives* | Elevated card with 1px border and subtle spring hover elevation. |
-| **12** | **`ToastTrigger` / `TasteToaster`** 🍞 | *Emil Primitives* | Sonner-grade stacked physics toast notification system. |
-| **13** | **`MagneticHover`** 🧲 | *Emil Primitives* | Magnetic cursor pull effect for CTAs and buttons. |
-| **14** | **`InputWithAdornment`** 🔍 | *Origin UI* | Precision form input with semantic left icon, right interactive clear/copy actions. |
-| **15** | **`SearchCommand`** ⌨️ | *Origin UI* | Search command bar with keyboard shortcut badges (`⌘K`). |
-| **16** | **`SegmentedControl`** 🎛️ | *Origin UI* | Fluid sliding pill tab switcher with spring layout animation. |
-| **17** | **`SpringAccordion`** 📂 | *Origin UI* | Smooth physics-animated FAQ and feature disclosure accordion. |
-| **18** | **`SpotlightCard`** ✨ | *Motion* | Mouse-following dynamic radial spotlight highlighting borders and surfaces. |
-| **19** | **`MarqueeTicker`** 🔁 | *Motion* | Infinite seamless marquee ribbon for metrics and partner badges. |
-| **20** | **`KineticText`** 🔠 | *Motion* | Staggered typography reveal animation. |
-| **21** | **`NumberCounter`** 📈 | *Motion* | Live animated number counter with physics easing curves. |
-| **22** | **`EditorialHero`** 🚀 | *Enterprise* | Stripe & Tailwind UI hero section with live token badges and code preview. |
-| **23** | **`BespokeFeatureGrid`** 🧩 | *Enterprise* | Asymmetric feature matrix highlighting product capabilities. |
-| **24** | **`TactilePricing`** 💳 | *Enterprise* | 3-tier enterprise pricing table with monthly/annual toggle and toast checkout. |
-| **25** | **`ThemeSwitcher`** 🎨 | *Showcase* | Live token switcher for Stripe Enterprise, Tailwind UI, Climate Mint, and Midnight Navy. |
-| **26** | **`ComponentCodeModal`** 💻 | *Showcase* | 1-click modal to copy TypeScript source code for any component. |
-
----
-
-## 🎨 Enterprise Design Token Themes
-
-Switch between 4 agency-grade design personalities with a single CSS class:
-
-```css
-/* 1. Stripe Enterprise (Default) */
-<html class="theme-stripe">    <!-- Canvas: #F6F9FC, Navy: #0A2540, Blurple: #635BFF -->
-
-/* 2. Tailwind UI Classic */
-<html class="theme-tailwind">  <!-- Slate: #0F172A, Pure White Card, Indigo: #6366F1 -->
-
-/* 3. Stripe Climate & Growth */
-<html class="theme-emerald">   <!-- Mint Canvas: #F4FBF7, Forest Navy, Emerald: #059669 -->
-
-/* 4. Stripe Midnight Navy (Dark Mode) */
-<html class="theme-midnight">  <!-- Deep Navy Dark: #0A0F1D, Electric Blurple: #7C75FF -->
-```
-
----
-
-## 🚀 Quickstart
-
-### 1. Clone & Install
 ```bash
-git clone https://github.com/shahrukh-hack/vibe-superkit.git my-website
-cd my-website
-npm install
+# 1. Preview all 26 high-taste UI components
+npx vibe-superkit preview
+
+# 2. Add a specific component to your project
+npx vibe-superkit add pricing-table
+npx vibe-superkit add command-palette
+npx vibe-superkit add magnetic-button
+
+# 3. Start the interactive design sandbox
+npx vibe-superkit dev
 ```
-
-### 2. Run the Interactive Component Laboratory
-```bash
-npm run dev
-```
-
-### 3. Open in Antigravity, Cursor, or Claude Code
-Open the project directory. The AI automatically detects [`.cursorrules`](./.cursorrules) and enforces Stripe & Tailwind UI design standards on every prompt!
-
----
-
-## 🤝 Part of The Vibe Coder's Power Suite
-
-1. 🪄 **[`vibe-superkit`](https://github.com/shahrukh-hack/vibe-superkit):** The Anti-AI Slop & High-Taste Design Engine ([Live Demo](https://shahrukh-hack.github.io/vibe-superkit/))
-2. 🧠 **[`vibe-memory`](https://github.com/shahrukh-hack/vibe-memory):** Universal Long-Term Memory & Codebase AST Intelligence ([Live Demo](https://shahrukh-hack.github.io/vibe-memory/))
-3. ⚡ **[`vibe-skills`](https://github.com/shahrukh-hack/vibe-skills):** Mega-Library of 23 Standard Agent Skills with 1-Command CLI (`npx vibe-skills add <skill>`)
-4. 🤖 **[`vibe-agency`](https://github.com/shahrukh-hack/vibe-agency):** Autonomous Multi-Agent Team Orchestrator with 200+ Agents & Vibe Kanban ([Live Demo](https://shahrukh-hack.github.io/vibe-agency/))
 
 ---
 
